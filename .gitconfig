@@ -1,0 +1,16 @@
+[user]
+	name = Fumihiro Xue
+	email = xfumihiro@gmail.com
+[alias]
+	aa = add --all
+	br = branch
+	ci = commit --verbose
+	co = checkout
+	di = diff
+	dc = diff --cached
+	st = status
+
+	# A better git log [https://coderwall.com/p/euwpig/a-better-git-log?p=1]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[core]
+	editor = /usr/bin/vim
