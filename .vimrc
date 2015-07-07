@@ -54,16 +54,33 @@ set showcmd	"Show incomplete commands
 set list
 set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 highlight SpecialKey ctermbg=none " make the highlighting of tabs less annoying
-"set showbreak=↪
+set showbreak=↪
 
 " ---------------- Search -----------------
 set incsearch	" Find the next match as we type the search
 set hlsearch	" Highlight searches by default
 set ignorecase	" Ignore case when searching...
 set smartcase	" ...unless we type a capital
-" nnoremap <esc> :noh<CR><esc> " Shortcut to clear the search highlight
 
 " ---------------- Mapping -----------------
+nnoremap ; :| " Save the shift key
+
+nnoremap Q <nop>| " Prevent accidentally enter "Ex Mode"
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+nnoremap <Silent> <Leader>/ :nohlsearch<CR>| " Clear the search highlight
+
+nnoremap <Leader>t :enew<CR>| " Open a new buffer
+nnoremap <Leader><Leader>l :bnext<CR>|	" Move to the next buffer
+nnoremap <Leader><Leader>h :bprevious<CR>|	" Move to the previous buffer
+nnoremap <Leader>bq :bp <BAR> bd #<CR>| " Close the buffer
+nnoremap <Leader>bl :ls<CR>| " List all the buffers and their status
+
+nnoremap <C-t> :TagbarToggle<CR>
 
 " -------------------- Persistent Undo -------------------
 set undofile
