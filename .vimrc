@@ -98,3 +98,10 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
 
 " -------------------- Buffer Configs --------------------
 set hidden	" Allow modified buffers to be hidden
+
+" -------------------- Auto Commands --------------------
+" [auto-reload vimrc]
+augroup reload_vimrc " {
+	autocmd!
+	autocmd BufWritePost $MYVIMRC source $MYVIMRC
+augroup END " }
