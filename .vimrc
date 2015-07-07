@@ -95,3 +95,6 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
 			\ --ignore .DS_Store
 			\ --ignore "**/*.pyc"
 			\ -g ""'
+
+" -------------------- Buffer Configs --------------------
+set hidden	" Allow modified buffers to be hidden
