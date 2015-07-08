@@ -17,6 +17,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'FelikZ/ctrlp-py-matcher'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'majutsushi/tagbar'
+Plugin 'tmux-plugins/vim-tmux'
 
 call vundle#end()
 filetype plugin indent on
