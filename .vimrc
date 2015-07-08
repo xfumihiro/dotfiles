@@ -8,10 +8,10 @@ set ttimeoutlen=0
 " the plugins.
 let mapleader=","
 
-source vim/plugin.vim
-source vim/powerline.vim
-source vim/mappings.vim
-source vim/autocmds.vim
+source ~/.dotfiles/vim/plugin.vim
+source ~/.dotfiles/vim/powerline.vim
+source ~/.dotfiles/vim/mappings.vim
+source ~/.dotfiles/vim/autocmds.vim
 " -------------------- General Configs --------------------
 set number
 set relativenumber
