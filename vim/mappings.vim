@@ -8,7 +8,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-nnoremap <Silent> <Leader>/ :nohlsearch<CR>| " Clear the search highlight
+nnoremap <silent> <Leader>/ :nohlsearch<CR>| " Clear the search highlight
 
 nnoremap <Leader>t :enew<CR>| " Open a new buffer
 nnoremap <Leader><Leader>l :bnext<CR>|	" Move to the next buffer
