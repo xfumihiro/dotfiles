@@ -18,6 +18,8 @@ Plugin 'FelikZ/ctrlp-py-matcher'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'majutsushi/tagbar'
 Plugin 'tmux-plugins/vim-tmux'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-endwise'
 
 call vundle#end()
 filetype plugin indent on
