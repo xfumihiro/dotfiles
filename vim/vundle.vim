@@ -20,6 +20,9 @@ Plugin 'majutsushi/tagbar'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-bundler'
+Plugin 'tpope/vim-rails'
+Plugin 'skalnik/vim-vroom'
 
 call vundle#end()
 filetype plugin indent on
