@@ -23,6 +23,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rails'
 Plugin 'skalnik/vim-vroom'
+Plugin 'nvie/vim-flake8'
 
 call vundle#end()
 filetype plugin indent on
