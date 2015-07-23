@@ -8,6 +8,12 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" resizing window splits
+nnoremap j <C-w>-
+nnoremap k <C-w>+
+nnoremap h <C-w><
+nnoremap l <C-w>>
+
 nnoremap <silent> <Leader>/ :let @/ = ""<CR>| " Clear the search highlight
 
 nnoremap <Leader>t :enew<CR>| " Open a new buffer
