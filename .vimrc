@@ -12,6 +12,8 @@ source ~/.dotfiles/vim/plugin.vim
 source ~/.dotfiles/vim/powerline.vim
 source ~/.dotfiles/vim/mappings.vim
 source ~/.dotfiles/vim/autocmds.vim
+source ~/.dotfiles/vim/functions.vim
+
 " -------------------- General Configs --------------------
 set number
 set relativenumber
