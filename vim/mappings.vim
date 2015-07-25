@@ -31,7 +31,7 @@ nnoremap <Leader>bl :ls<CR>
 " Functions
 vnoremap <Leader>s :sort<CR>
 
-nnoremap <silent> <C-z> :ZoomToggle<CR>
+nnoremap <silent> <Leader>z :ZoomToggle<CR>
 
 " Plugins
 nnoremap <C-t> :TagbarToggle<CR>
