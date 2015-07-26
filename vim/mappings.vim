@@ -17,8 +17,8 @@ nnoremap l <C-w>>
 nnoremap <silent> <Leader>/ :let @/ = ""<CR>| " Clear the search highlight
 
 nnoremap <Leader>t :enew<CR>| " Open a new buffer
-nnoremap <Leader><Leader>l :bnext<CR>|	" Move to the next buffer
-nnoremap <Leader><Leader>h :bprevious<CR>|	" Move to the previous buffer
+nnoremap <Leader>m :bnext<CR>|	" Move to the next buffer
+nnoremap <Leader>n :bprevious<CR>|	" Move to the previous buffer
 nnoremap <Leader>bq :bp <BAR> bd #<CR>| " Close the buffer
 nnoremap <Leader>bl :ls<CR>| " List all the buffers and their status
 
