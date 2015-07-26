@@ -1,25 +1,37 @@
-" ---------------- Mapping -----------------
-nnoremap ; :| " Save the shift key
+" Save the shift key
+nnoremap ; :
+" Prevent accidentally enter Ex Mode
+nnoremap Q <nop>
 
-nnoremap Q <nop>| " Prevent accidentally enter "Ex Mode"
-
+" Navigations
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+nnoremap <Leader>n :bprevious<CR>
+nnoremap <Leader>m :bnext<CR>
 
-" resizing window splits
+" Resizing window splits
 nnoremap j <C-w>-
 nnoremap k <C-w>+
 nnoremap h <C-w><
 nnoremap l <C-w>>
 
-nnoremap <silent> <Leader>/ :let @/ = ""<CR>| " Clear the search highlight
+" Clear the search highlight
+nnoremap <silent> <Leader>/ :let @/ = ""<CR>
 
-nnoremap <Leader>t :enew<CR>| " Open a new buffer
-nnoremap <Leader>m :bnext<CR>|	" Move to the next buffer
-nnoremap <Leader>n :bprevious<CR>|	" Move to the previous buffer
-nnoremap <Leader>bq :bp <BAR> bd #<CR>| " Close the buffer
-nnoremap <Leader>bl :ls<CR>| " List all the buffers and their status
+" Buffer
+" Open a new buffer
+nnoremap <Leader>t :enew<CR>
+" Close the buffer
+nnoremap <Leader>bq :bp <BAR> bd #<CR>
+" List all the buffers and their status
+nnoremap <Leader>bl :ls<CR>
 
+" Functions
+vnoremap <Leader>s :sort<CR>
+
+nnoremap <silent> <C-z> :ZoomToggle<CR>
+
+" Plugins
 nnoremap <C-t> :TagbarToggle<CR>
