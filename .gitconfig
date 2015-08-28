@@ -12,5 +12,6 @@
 
 	# A better git log [https://coderwall.com/p/euwpig/a-better-git-log?p=1]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	lga = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
 [core]
 	editor = /usr/local/bin/vim
