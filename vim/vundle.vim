@@ -25,6 +25,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'skalnik/vim-vroom'
 Plugin 'nvie/vim-flake8'
 Plugin 'klen/python-mode'
+Plugin 'tfnico/vim-gradle'
 
 call vundle#end()
 filetype plugin indent on
