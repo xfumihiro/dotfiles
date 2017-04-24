@@ -1,6 +1,9 @@
 " vim configurations
 set timeoutlen=1000
 set ttimeoutlen=0
+set shiftwidth=2
+set tabstop=2
+set expandtab
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x

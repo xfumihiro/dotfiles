@@ -35,3 +35,10 @@ nnoremap <silent> <Leader>z :ZoomToggle<CR>
 
 " Plugins
 nnoremap <C-t> :TagbarToggle<CR>
+
+" Testing
+nnoremap <silent> <Leader>t :TestNearest<CR>
+nnoremap <silent> <Leader>T :TestFile<CR>
+nnoremap <silent> <Leader>a :TestSuite<CR>
+nnoremap <silent> <Leader>l :TestLast<CR>
+nnoremap <silent> <Leader>g :TestVisit<CR>

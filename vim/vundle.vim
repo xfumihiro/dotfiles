@@ -26,6 +26,16 @@ Plugin 'skalnik/vim-vroom'
 Plugin 'nvie/vim-flake8'
 Plugin 'klen/python-mode'
 Plugin 'tfnico/vim-gradle'
+Plugin 'douglascrockford/jslint'
+Plugin 'moll/vim-node'
+Plugin 'pangloss/vim-javascript'
+Plugin 'lambdatoast/elm.vim'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'janko-m/vim-test'
+Plugin 'vim-erlang/vim-erlang-compiler'
+Plugin 'vim-erlang/vim-erlang-tags'
+Plugin 'edkolev/erlang-motions'
+
 
 call vundle#end()
 filetype plugin indent on
