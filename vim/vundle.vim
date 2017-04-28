@@ -36,6 +36,7 @@ Plugin 'vim-erlang/vim-erlang-compiler'
 Plugin 'vim-erlang/vim-erlang-tags'
 Plugin 'edkolev/erlang-motions'
 Plugin 'vimwiki/vimwiki'
+Plugin 'severin-lemaignan/vim-minimap'
 
 
 call vundle#end()
