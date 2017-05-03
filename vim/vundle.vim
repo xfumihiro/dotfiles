@@ -37,6 +37,7 @@ Plugin 'vim-erlang/vim-erlang-tags'
 Plugin 'edkolev/erlang-motions'
 Plugin 'vimwiki/vimwiki'
 Plugin 'severin-lemaignan/vim-minimap'
+Plugin 'mbbill/undotree'
 
 
 call vundle#end()
