@@ -36,6 +36,7 @@ nnoremap <silent> <Leader>z :ZoomToggle<CR>
 " Plugins
 nnoremap <C-t> :TagbarToggle<CR>
 nnoremap <F5>  :UndotreeToggle<CR>
+nnoremap <F8>  :NERDTreeToggle<CR>
 
 " Testing
 nnoremap <silent> <Leader>t :TestNearest<CR>

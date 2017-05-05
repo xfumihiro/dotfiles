@@ -39,6 +39,8 @@ Plugin 'edkolev/erlang-motions'
 Plugin 'vimwiki/vimwiki'
 Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'mbbill/undotree'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 
 call vundle#end()
