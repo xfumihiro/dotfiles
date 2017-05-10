@@ -26,6 +26,7 @@ set showcmd	"Show incomplete commands
 set list
 set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 highlight SpecialKey ctermbg=none " make the highlighting of tabs less annoying
+highlight NonText ctermfg=237 " make the highlighting of eol less annoying
 set showbreak=↪
 
 " ---------------- Search -----------------
