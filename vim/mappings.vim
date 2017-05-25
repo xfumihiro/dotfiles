@@ -37,6 +37,8 @@ nnoremap <silent> <Leader>z :ZoomToggle<CR>
 nnoremap <C-t> :TagbarToggle<CR>
 nnoremap <F5>  :UndotreeToggle<CR>
 nnoremap <F8>  :NERDTreeToggle<CR>
+map <Leader>ew <Plug>(easymotion-bd-w)
+nmap <Leader>ew <Plug>(easymotion-overwin-w)
 
 " Testing
 nnoremap <silent> <Leader>t :TestNearest<CR>
